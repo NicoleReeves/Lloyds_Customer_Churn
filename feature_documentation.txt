@@ -1,0 +1,36 @@
+CUSTOMER CHURN DATASET - FEATURE DOCUMENTATION
+==================================================
+
+Dataset Shape: (1000, 27)
+Total Features: 27
+Total Records: 1000
+
+FEATURE DESCRIPTIONS:
+--------------------
+CustomerID: Unique customer identifier
+Age: Processed numerical feature
+Total_Spent: Processed numerical feature
+Avg_Transaction: Processed numerical feature
+Transaction_Count: Processed numerical feature
+Spending_Volatility: Processed numerical feature
+Product_Categories: Processed numerical feature
+Days_Since_Last_Transaction: Processed numerical feature
+Customer_Tenure_Days: Processed numerical feature
+Transaction_Frequency: Processed numerical feature
+Service_Interactions: Processed numerical feature
+Resolution_Rate: Processed numerical feature
+Days_Since_Last_Service: Processed numerical feature
+LoginFrequency: Processed numerical feature
+Days_Since_Last_Login: Processed numerical feature
+Days_Since_Last_Transaction_log: Log-transformed feature
+Transaction_Frequency_log: Log-transformed feature
+Gender_encoded: Encoded categorical variable
+MaritalStatus_Divorced: One-hot encoded categorical feature
+MaritalStatus_Married: One-hot encoded categorical feature
+MaritalStatus_Single: One-hot encoded categorical feature
+MaritalStatus_Widowed: One-hot encoded categorical feature
+IncomeLevel_encoded: Encoded categorical variable
+ServiceUsage_Mobile App: One-hot encoded categorical feature
+ServiceUsage_Online Banking: One-hot encoded categorical feature
+ServiceUsage_Website: One-hot encoded categorical feature
+ChurnStatus: Target variable (0=Retained, 1=Churned)
